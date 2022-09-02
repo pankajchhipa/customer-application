@@ -21,13 +21,17 @@ public class Demo2Application implements CommandLineRunner{
 		 
 	}
 
-
-
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 		String data  = env.getProperty("my.app.message");
 		System.out.println(data1);
+		
+		StringBuffer ob=new StringBuffer("pankaj");
+		
+		
+		
 	}
+	
 
 }
