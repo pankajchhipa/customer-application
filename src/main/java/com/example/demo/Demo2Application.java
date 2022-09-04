@@ -25,7 +25,7 @@ public class Demo2Application implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 		String data  = env.getProperty("my.app.message");
-		System.out.println(data1+".----");
+		System.out.println(data1+".----......");
 		
 		
 		
